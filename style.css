@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*
+{
+  font-family: "Oswald", sans-serif;
+}
+
+
+body {
+    background-color: #003c4331 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+.container{
+    position:relative;
+    display: grid;
+    width: 100%;
+    max-width: 900px;
+    min-height: 300px;
+    grid-template-columns: 450px auto ;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+}
+
+.profile-text{
+    display: flex;
+}
+
+.profile-text .image-profile {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 20% ;
+    -webkit-border-radius: 20% ;
+    -moz-border-radius: 20% ;
+    -ms-border-radius: 20% ;
+    -o-border-radius: 20% ;
+    overflow: hidden;
+}
+.profile-text .image-profile img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.nama-bio{
+    padding-top: 2px;
+}
+
+.nama-bio  h2 {
+    display:block;
+    font-size: 38px;
+    margin: 0 auto;
+    margin-left: 30px;
+    width:570px;
+    border-bottom: 2px solid #1e8c9b;
+    color: rgb(255, 255, 255);    
+}
+.nama-bio p{
+    display:flex;
+    font-size: 18px;
+    width: 500px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);   
+}
+
+.container .bagian-atas{
+    position: relative;
+    background: #135D66;
+    padding: 30px;
+    grid-area: 1 / 1 / 2 / 3;
+}
+.container .bagian-kanan{
+    position: relative;
+    background: #9cc8ce;
+    padding: 20px;
+    grid-area: 2 / 2 / 3 / 3; 
+
+}
+.container .bagian-kiri{
+    position: relative;
+    background: #E3FEF7;
+    padding: 20px;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.contact ul{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.contact .title {
+    color: #135D66;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-bottom: 2px solid #1e8c9b;
+    width: 57px;
+
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 3px;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #135D66;
+}
+
+.kemampuan ul{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.kemampuan .title {
+    color: #135D66;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-bottom: 2px solid #1e8c9b;
+    width: 93px;
+
+}
+.kemampuan ul li{
+    position: relative;
+    margin-left: 40px;
+    margin-bottom: 3px;
+}
+
+.kemampuan ul li .text {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.pendidikan{
+    position: relative;
+    margin-left: 20px;
+}
+
+.pendidikan .title {
+    color: #135D66;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1e8c9b;
+    width: 93px;
+}
+
+.pendidikan ul{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+
+.pendidikan  .univ {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000; 
+}
+
+.pendidikan .prestasi{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000; 
+    margin-top: 10px;
+}
+
+.pendidikan ul li {
+    position: relative;
+    margin-bottom: 3px;
+    margin-left: 20px;
+}
+
+.pendidikan .organisasi{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000; 
+    margin-top: 10px;
+}
+
+.experience .title {
+        color: #135D66;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #1e8c9b;
+        width: 97px;
+}
+
+.experience .title-tempat-kerja{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000; 
+    margin-left: 20px;
+}
+
+.experience ul{
+    position:relative ;
+    margin: 0;
+    padding: 0;
+}
+.experience ul li{
+    position: relative;
+    margin-left: 40px;
+}
+
+.hobi .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #135D66;
+    margin-left: 20px;
+}
+
+.hobi .title {
+    color: #135D66;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1e8c9b;
+    width: 38px;
+}
